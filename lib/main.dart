@@ -15,15 +15,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Text(
-          'Hello everyone',
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-            color: Colors.grey[600],
-            fontFamily: 'NerkoOne',
-          ),
-        ),
+        child: Image.asset('assets/moon-1.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
